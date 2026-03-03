@@ -4,7 +4,6 @@
 CSS Animation practice project from freeCodeCamp's Responsive Web Design certification. Features synchronized rotation and transform-origin manipulation.
 you can see the live version of this project here: 
 👉 **https://laddtnov.github.io/fcc-css-challenges/**
-## 🚀 Live Demo
 
 
 # CSS Animated Ferris Wheel 🎡
