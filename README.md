@@ -2,6 +2,10 @@
 ![Tech](https://img.shields.io/badge/Tech-CSS--Grid-blueviolet?style=for-the-badge)
 # fcc-css-challenges
 CSS Animation practice project from freeCodeCamp's Responsive Web Design certification. Features synchronized rotation and transform-origin manipulation.
+you can see the live version of this project here: 
+👉 **https://laddtnov.github.io/fcc-css-challenges/**
+## 🚀 Live Demo
+
 
 # CSS Animated Ferris Wheel 🎡
 
@@ -19,5 +23,4 @@ A fun and visually engaging project built to master **CSS Animations** and **2D 
 * Balancing nested animations (counter-rotating elements).
 * Absolute and relative positioning within a circular layout.
 
-*## 🚀 Live Demo
-[View the Animation Here] https://laddtnov.github.io/fcc-css-challenges/
+
