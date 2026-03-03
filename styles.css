@@ -140,3 +140,18 @@ body {
 
 
 }
+@media (max-width: 600px) {
+  .wheel {
+    width: 80vw;
+  }
+
+  .wheel-stand {
+    height: 200px; 
+    width: 10px;
+  }
+
+  .cabin {
+    width: 15%;
+    height: 15%;
+  }
+}
