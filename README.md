@@ -21,4 +21,3 @@ A fun and visually engaging project built to master **CSS Animations** and **2D 
 
 *## 🚀 Live Demo
 [View the Animation Here] https://laddtnov.github.io/fcc-css-challenges/
-![Ferris Wheel Preview](https://placehold.co/600x400/1a2a6c/FFFFFF/png?text=Animated+Ferris+Wheel)
