@@ -5,90 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My CSS Art Portfolio</title>
     <style>
-        :root {
-            --bg: #0f172a;
-            --card-bg: #1e293b;
-            --text: #f8fafc;
-            --accent: #38bdf8;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: var(--bg);
-            color: var(--text);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            margin: 0;
-        }
-
-        h1 {
-            margin-bottom: 2rem;
-            font-size: 2.5rem;
-            text-align: center;
-            background: linear-gradient(to right, #38bdf8, #818cf8);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .container {
-            display: flex;
-            gap: 2rem;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        .card {
-            background: var(--card-bg);
-            padding: 2rem;
-            border-radius: 1rem;
-            text-align: center;
-            width: 250px;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            text-decoration: none;
-            color: var(--text);
-            border: 1px solid #334155;
-        }
-
-        .card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
-            border-color: var(--accent);
-        }
-
-        .icon {
-            font-size: 4rem;
-            margin-bottom: 1rem;
-            display: block;
-        }
-
-        .card h2 {
-            margin: 0;
-            font-size: 1.5rem;
-        }
-
-        @media (max-width: 600px) {
-            .container { flex-direction: column; }
-        }
+        :root { --bg: #0f172a; --card-bg: #1e293b; --text: #f8fafc; --accent: #38bdf8; }
+        body { font-family: sans-serif; background-color: var(--bg); color: var(--text); display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; margin: 0; }
+        .container { display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center; }
+        .card { background: var(--card-bg); padding: 2rem; border-radius: 1rem; text-align: center; width: 250px; transition: transform 0.3s ease; text-decoration: none; color: var(--text); border: 1px solid #334155; }
+        .card:hover { transform: translateY(-10px); border-color: var(--accent); }
+        .icon { font-size: 4rem; margin-bottom: 1rem; display: block; }
     </style>
 </head>
 <body>
-
-    <h1>My CSS Challenges Gallery</h1>
-
+    <h1>My CSS Gallery</h1>
     <div class="container">
-    <a href="Flappy-Penguin/" class="card">
-        <span class="icon">🐧</span>
-        <h2>Penguin Gentleman</h2>
-    </a>
-
-    <a href="Ferris-Wheel/" class="card">
-        <span class="icon">🎡</span>
-        <h2>Ferris Wheel</h2>
-    </a>
-</div>
-
+        <a href="Flappy-Penguin/" class="card">
+            <span class="icon">🐧</span>
+            <h2>Penguin</h2>
+        </a>
+        <a href="Ferris-Wheel/" class="card">
+            <span class="icon">🎡</span>
+            <h2>Ferris Wheel</h2>
+        </a>
+    </div>
 </body>
-</html>
+</html>      
