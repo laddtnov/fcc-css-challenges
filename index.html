@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CSS Art Portfolio</title>
+    <title>My CSS Gallery</title>
     <style>
-        :root { --bg: #0f172a; --card-bg: #1e293b; --text: #f8fafc; --accent: #38bdf8; }
-        body { font-family: sans-serif; background-color: var(--bg); color: var(--text); display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; margin: 0; }
-        .container { display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center; }
-        .card { background: var(--card-bg); padding: 2rem; border-radius: 1rem; text-align: center; width: 250px; transition: transform 0.3s ease; text-decoration: none; color: var(--text); border: 1px solid #334155; }
-        .card:hover { transform: translateY(-10px); border-color: var(--accent); }
-        .icon { font-size: 4rem; margin-bottom: 1rem; display: block; }
+        :root { --bg: #0f172a; --text: #f8fafc; --accent: #38bdf8; }
+        body { font-family: sans-serif; background: var(--bg); color: var(--text); display: flex; flex-direction: column; align-items: center; min-height: 100vh; margin: 0; padding: 20px; }
+        .container { display: flex; gap: 20px; flex-wrap: wrap; }
+        .card { background: #1e293b; padding: 30px; border-radius: 15px; text-decoration: none; color: white; border: 1px solid #334155; text-align: center; width: 200px; }
+        .card:hover { border-color: var(--accent); transform: translateY(-5px); transition: 0.3s; }
+        .icon { font-size: 50px; display: block; margin-bottom: 10px; }
     </style>
 </head>
 <body>
-    <h1>My CSS Gallery</h1>
+    <h1>My CSS Art Gallery</h1>
     <div class="container">
         <a href="Flappy-Penguin/" class="card">
             <span class="icon">🐧</span>
@@ -26,4 +26,4 @@
         </a>
     </div>
 </body>
-</html>      
+</html>
