@@ -7,9 +7,6 @@ you can see the live version of this project here:
 👉 **https://laddtnov.github.io/fcc-css-challenges/**
 
 
-# 🎨 FreeCodeCamp CSS Visual Projects
-
-A collection of interactive web components and animations built while completing the [freeCodeCamp](https://www.freecodecamp.org/) Responsive Web Design certification.
 
 ---
 
